@@ -41,7 +41,7 @@ public class MemContents implements Cloneable, HexModel {
     return new MemContents(addrBits, width);
   }
 
-  private static final int PAGE_SIZE_BITS = 12;
+  private static final int PAGE_SIZE_BITS = 14;
   private static final int PAGE_SIZE = 1 << PAGE_SIZE_BITS;
 
   private static final int PAGE_MASK = PAGE_SIZE - 1;

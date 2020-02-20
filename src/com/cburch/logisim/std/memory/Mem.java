@@ -95,7 +95,7 @@ public abstract class Mem extends InstanceFactory {
 
   public static final int SymbolWidth = 200;
   public static final Attribute<BitWidth> ADDR_ATTR = Attributes.forBitWidth(
-      "addrWidth", S.getter("ramAddrWidthAttr"), 2, 24);
+    "addrWidth", S.getter("ramAddrWidthAttr"), 2, 32);
 
   public static final Attribute<BitWidth> DATA_ATTR = Attributes.forBitWidth(
       "dataWidth", S.getter("ramDataWidthAttr"));
